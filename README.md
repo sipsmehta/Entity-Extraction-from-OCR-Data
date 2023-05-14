@@ -48,5 +48,13 @@
 ## False Positives and False Negatives: False positives and false negatives were analyzed to determine the accuracy of the model in identifying fields that were present or absent in the dataset.
 ## Overall Accuracy: The overall accuracy of the model was calculated to determine the effectiveness of the model in extracting information from the OCR data.
 
+## Based on the classification report, the model has an overall accuracy of 0.9929772662299727, which is quite high. The model performed very well for the "OTHER" category, achieving a precision and recall of 0.99 and 1.00, respectively.
+
+## However, for some of the other categories, the model's performance was not as good. For example, the "box16StateWagesTips" category had a lower recall of 0.82, meaning that the model missed some of the instances of this category. Similarly, the "box17StateIncomeTax" category also had a lower recall of 0.82.
+
+## In contrast, some of the categories had very high precision and recall values, such as the "box2FederalIncomeTaxWithheld" category, which had a precision and recall of 0.97 and 0.98, respectively.
+
+## To improve the model's performance, it may be necessary to collect more training data, or to tune the model's hyperparameters. Additionally, it may be helpful to look at specific examples of misclassified instances to see if there are any patterns or common issues that the model is struggling with.
+
 # Contributing
 ## Please feel free to submit issues or pull requests if you encounter any problems or have suggestions for improvements.
