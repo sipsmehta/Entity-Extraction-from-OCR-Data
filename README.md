@@ -58,7 +58,19 @@
 
 ![image](https://github.com/sipsmehta/Entity-Extraction-from-OCR-Data/assets/69897673/eedf3712-7c57-4cae-89ca-0db7d2adb15a)
 
+# There are several ways to improve the performance of the model used in the above code. Here are a few suggestions:
 
+## Hyperparameter tuning: The performance of the model can be improved by finding the optimal hyperparameters. In the above code, the hyperparameters of the Random Forest Classifier are set to default values. You can use techniques such as grid search or random search to find the best hyperparameters for your model.
+
+## Feature engineering: Feature engineering can be used to extract more meaningful features from the data. In the above code, only a subset of the available features is used. You can explore other features or create new features that might be more useful for the classification task.
+
+## Data preprocessing: The performance of the model can be improved by performing data preprocessing techniques such as normalization, scaling, and handling missing values. In the above code, the data is loaded directly from CSV files without any preprocessing.
+
+## Ensemble methods: Ensemble methods such as bagging, boosting, or stacking can be used to improve the performance of the model. In the above code, a single Random Forest Classifier is used for classification.
+
+## Other models: You can also explore other machine learning models such as Support Vector Machines, Neural Networks, or Gradient Boosting Machines that might perform better for your classification task.
+
+## Data augmentation: Data augmentation is a technique used to increase the size of the training set by creating additional examples by manipulating the existing examples. This can be used to improve the robustness of the model and prevent overfitting.
 
 # Contributing
 ## Please feel free to submit issues or pull requests if you encounter any problems or have suggestions for improvements.
