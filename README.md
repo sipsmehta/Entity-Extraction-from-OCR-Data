@@ -41,5 +41,12 @@
 ### Boxplot: Used to identify the distribution of the data and detect outliers.
 ### Additionally, a grouped bar chart is generated for the training data to display the distribution of the records across different fields.
 
+# Error Analysis
+## After training the machine learning model, an error analysis was performed to identify the strengths and weaknesses of the model. The error analysis included:
+## Confusion Matrix: The confusion matrix was used to identify the accuracy of the model in identifying different fields in the dataset.
+## Misclassified Records: Misclassified records were analyzed to identify patterns or common errors in the model's predictions. The misclassified records were then manually reviewed to determine the cause of the misclassification.
+## False Positives and False Negatives: False positives and false negatives were analyzed to determine the accuracy of the model in identifying fields that were present or absent in the dataset.
+## Overall Accuracy: The overall accuracy of the model was calculated to determine the effectiveness of the model in extracting information from the OCR data.
+
 # Contributing
 ## Please feel free to submit issues or pull requests if you encounter any problems or have suggestions for improvements.
