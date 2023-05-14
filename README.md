@@ -6,7 +6,7 @@
 ### OpenCV (cv2)
 ### Pandas
 ### Seaborn
-###Matplotlib
+### Matplotlib
 # Usage
 ## Converting training data
 ## Place the images in the train/images directory.
