@@ -55,6 +55,34 @@
 ## In contrast, some of the categories had very high precision and recall values, such as the "box2FederalIncomeTaxWithheld" category, which had a precision and recall of 0.97 and 0.98, respectively.
 
 ## To improve the model's performance, it may be necessary to collect more training data, or to tune the model's hyperparameters. Additionally, it may be helpful to look at specific examples of misclassified instances to see if there are any patterns or common issues that the model is struggling with.
+precision    recall  f1-score   support
+
+                             OTHER       0.99      1.00      1.00     75188
+               box16StateWagesTips       0.96      0.82      0.89       362
+               box17StateIncomeTax       0.99      0.82      0.90       337
+box1WagesTipsAndOtherCompensations       0.97      0.95      0.96       359
+      box2FederalIncomeTaxWithheld       0.97      0.98      0.98       368
+           box3SocialSecurityWages       0.98      0.87      0.92       353
+     box4SocialSecurityTaxWithheld       0.96      0.93      0.94       359
+   einEmployerIdentificationNumber       0.99      0.93      0.96       195
+                      employeeName       0.95      0.88      0.91       404
+               employerAddressCity       0.96      0.91      0.93       305
+              employerAddressState       0.94      0.90      0.92       196
+        employerAddressStreet_name       0.95      0.94      0.95       786
+                employerAddressZip       0.95      0.95      0.95       199
+                      employerName       0.97      0.89      0.93       696
+                     ssnOfEmployee       0.99      0.92      0.96       173
+                           taxYear       0.99      0.95      0.97       173
+
+                          accuracy                           0.99     80453
+                         macro avg       0.97      0.92      0.94     80453
+                      weighted avg       0.99      0.99      0.99     80453
+
+Accuracy: 0.9929772662299727
+
+![image](https://github.com/sipsmehta/Entity-Extraction-from-OCR-Data/assets/69897673/eedf3712-7c57-4cae-89ca-0db7d2adb15a)
+
+
 
 # Contributing
 ## Please feel free to submit issues or pull requests if you encounter any problems or have suggestions for improvements.
